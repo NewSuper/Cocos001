@@ -1,0 +1,50 @@
+@startuml
+class State{
+animationClip
+async init():void
+run():void
+}
+abstract class StateMachine{
+_currentState:State|SubStateMachine
+params:Map<string,IparamsValue>
+stateMachines:Map<string,State|SubStateMachine>
+animationComponent:Animation
+waitinglist:Array< Promise<AnimationClip>>
++setParams(paramName:string,value:ParamsValueType):void
++getParams(paramName:string):ParamsValueType
++init():void
++resetTrigger():void
++{abstract} run():void
++{abstract} initAnimationEvents():void
++{abstract} initParams():void
++{abstract} initStateMachines():void
+}
+abstract class SubStateMachine{
+  # _currentState:State
+  params:Map<string,IparamsValue>
+  stateMachines:Map<string,State>
+  animationComponent:Animation
+async init():void
+{abstract} run(): void
+{abstract} initStateMachines():void
+}
+abstract class DirectionStateMachine{
+run():void
+}
+class PlayerStateMachine{
+initAnimationEvents():void
+initParams():void
+initStateMachines():void
+run():void
+}
+class IdleStateMachine{
+initStateMachines(): void
+}
+' 组合关系
+StateMachine *-- State
+StateMachine *-- SubStateMachine
+' 继承关系
+SubStateMachine<|-- DirectionStateMachine
+StateMachine<|--PlayerStateMachine
+DirectionStateMachine<|--IdleStateMachine
+@enduml

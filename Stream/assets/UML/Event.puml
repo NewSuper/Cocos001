@@ -1,0 +1,86 @@
+@startuml
+left to right direction
+' top to bottom direction
+title 输入
+package EventManager {
+  usecase NEXT_LEVEL as nextlevel
+  usecase PLAYER_CTRL as pctrl
+
+}
+actor ControlManager as ctrl
+actor BattleManager as battle
+actor PlayerManager as player
+ctrl--> pctrl:UI触发
+ctrl --> nextlevel:UI触发
+nextlevel-->battle:通知切换下一个地图
+pctrl --> player:通知角色动作
+
+newpage
+title PlayerDeath
+left to right direction
+package EventManager {
+  usecase PLAYER_CTRL as pctrl
+  usecase PLAYER_MOVE_END as moveend
+  usecase PLAYER_DEATH as pdeath
+
+}
+actor ControlManager as ctrl
+actor PlayerManager as player
+actor EnemyManager as enemy
+ctrl-->pctrl:UI触发1
+pctrl-->player:通知玩家位移2
+player-->moveend:位移后触发3
+moveend-->enemy:通知敌人尝试攻击4
+enemy-->pdeath:敌人攻击判定生效，触发玩家死亡5
+pdeath-->player:通知玩家死亡6
+
+
+newpage
+title EnemyDeath
+left to right direction
+package EventManager {
+  usecase PLAYER_CTRL as pctrl
+  usecase PLAYER_MOVE_END as moveend
+  usecase ENEMY_DEATH as edeath
+  usecase CHECKDOOR as checkdoor
+}
+actor ControlManager as ctrl
+actor PlayerManager as player
+actor DoorManager as door
+actor EnemyManager as enemy
+ctrl-->pctrl:UI触发 1
+pctrl-->player:角色位移，并尝试攻击敌人 2
+player --> edeath:攻击判定生效，触发敌人死亡 3
+edeath-->enemy:通知敌人死亡 4
+player-->moveend:角色移动结束 7
+enemy-->checkdoor:敌人死亡触发 5
+checkdoor-->door:通知门检查是否可开启 6
+
+moveend-->enemy:通知敌人角色移动完成  8
+@enduml
+
+' newpage
+' title EnemyDeath
+' left to right direction
+' package EventManager {
+'   usecase NEXT_LEVEL as nextlevel
+'   usecase PLAYER_CTRL as pctrl
+'   usecase PLAYER_MOVE_END as moveend
+'   usecase PLAYER_DEATH as pdeath
+'   usecase ENEMY_DEATH as edeath
+'   usecase CHECKDOOR as checkdoor
+' }
+' actor ControlManager as ctrl
+' actor BattleManager as battle
+' actor PlayerManager as player
+' actor DoorManager as door
+' actor EnemyManager as enemy
+' player --> edeath
+' player-->moveend
+' moveend-->enemy
+' enemy-->pdeath
+' pdeath-->player
+' edeath-->enemy
+' enemy-->checkdoor
+' checkdoor-->door
+' @enduml

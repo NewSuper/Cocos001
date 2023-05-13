@@ -1,0 +1,12 @@
+{
+  "ver": "1.0.0",
+  "importer": "*",
+  "imported": true,
+  "uuid": "842ba84e-d7d4-4096-9e63-ecb70431896b",
+  "files": [
+    ".json",
+    ".puml"
+  ],
+  "subMetas": {},
+  "userData": {}
+}

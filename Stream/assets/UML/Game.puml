@@ -1,0 +1,35 @@
+@startuml
+' top to bottom direction
+' actor BattleManager as battle
+left to right direction
+actor EntityManager as entity
+actor PlayerManager as player
+
+actor EnemyManager as enemy
+actor tileMapManager as tileMap
+actor tileManager as tile
+actor DoorManager as door
+
+' actor ControlManager as ctrl
+' actor EventManager as event
+' actor ControllerManager  as control
+' battle -right->player:启动
+' battle -right->tile:启动
+' battle -right->enemy:启动
+
+' ctrl-->event:调用
+' event --> player : 通知
+' player-->event:监听
+
+battle -->  player:启动
+battle -->  tileMap:启动
+battle -->  enemy:启动
+battle -->  door:启动
+
+
+entity <|.. player:继承
+entity <|..enemy:继承
+entity <|..door:继承
+tileMap -->tile:1:n生成
+' tile -->(生成瓦片地图)
+@enduml
