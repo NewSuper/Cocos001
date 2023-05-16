@@ -1,0 +1,43 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "fish_hetun_die",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.8,
+  "sample": 5,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "28d1bbbb-4940-470f-a102-ff086930a3b0"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "bb0de968-7717-4292-a3ed-ce70ac82cec3"
+            }
+          },
+          {
+            "frame": 0.4,
+            "value": {
+              "__uuid__": "2b18009f-267a-4264-a33b-dfd3cfc0b6fd"
+            }
+          },
+          {
+            "frame": 0.6,
+            "value": {
+              "__uuid__": "eacda806-39a0-4be9-bd2c-c78a8acf17dd"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

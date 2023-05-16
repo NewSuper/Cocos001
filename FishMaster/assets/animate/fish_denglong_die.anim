@@ -1,0 +1,43 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "fish_denglong_die",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.8,
+  "sample": 5,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "cef0d325-c2d1-494b-98dd-6122288a1da3"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "26e6fa3f-7118-4ae6-bfe7-ab5ee5508cf5"
+            }
+          },
+          {
+            "frame": 0.4,
+            "value": {
+              "__uuid__": "c2a96c29-680e-4b2d-bedd-10210919a6c1"
+            }
+          },
+          {
+            "frame": 0.6,
+            "value": {
+              "__uuid__": "a6c9935c-ec1b-428a-b2cc-ce83b3a98b49"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

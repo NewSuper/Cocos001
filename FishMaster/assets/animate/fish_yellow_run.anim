@@ -1,0 +1,43 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "fish_yellow_run",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.8,
+  "sample": 5,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "0e61ade8-dc34-4136-b740-47260ebeea1e"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "24df14fa-d878-4d23-ab70-c9c53d4da4a7"
+            }
+          },
+          {
+            "frame": 0.4,
+            "value": {
+              "__uuid__": "2d6e643a-a267-47a0-8154-dbd8f16354ac"
+            }
+          },
+          {
+            "frame": 0.6,
+            "value": {
+              "__uuid__": "3c324ef3-72e1-4b13-92b1-c6fae373a5ba"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}
