@@ -23,18 +23,15 @@ export class PipeCtrl extends Component {
 
     /** 外部传进来的添加分数的方法 */
     private _addScore: Function;
-    /**
-     * 通过一个管道时加 1 分
-     */
+
+    /** 通过一个管道时加 1 分 */
     private AddScore() {
         if (this._addScore) {
             this._addScore();
         }
     }
 
-    StartGame(params: {
-        addScore: Function,
-    }) {
+    StartGame(params: { addScore: Function, }) {
         this._addScore = params.addScore;
         this.m_MoveSwitch = true;
         if (this._pipes.length === 0) {
@@ -93,7 +90,6 @@ export class PipeCtrl extends Component {
     private RandomY(): number {
         return this.pipeRandomRange * (Math.random() * 2 - 1);
     }
-
 
     /**
      * 鸟是否碰撞到管道

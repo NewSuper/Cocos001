@@ -4,9 +4,7 @@ export class GameConst {
     static readonly MOVE_SPEED: number = 3;
 }
 
-/**
- * 音频配置
- */
+/** 音频配置*/
 export class AudioConfig {
     /** 掉落 */
     static readonly die: string = "Audio/die";

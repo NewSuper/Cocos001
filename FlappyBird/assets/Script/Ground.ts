@@ -84,4 +84,5 @@ export class Ground extends Component {
  *    
  *   再 复制一次lose-label  命名record-label
  *   
- *   为防止用户点击触摸到下一层，LoseUI 添加一个BlockInputEvents,然后loseUI 默认不显示*/
+ *   为防止用户点击触摸到下一层，LoseUI 添加一个BlockInputEvents,然后loseUI 默认不显示
+ */
