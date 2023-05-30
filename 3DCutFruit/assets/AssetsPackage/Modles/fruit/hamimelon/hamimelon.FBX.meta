@@ -1,0 +1,146 @@
+{
+  "ver": "2.3.4",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "e57db638-0495-4d84-b651-5057d46b3df3",
+  "files": [],
+  "subMetas": {
+    "8fb7d": {
+      "importer": "gltf-mesh",
+      "uuid": "e57db638-0495-4d84-b651-5057d46b3df3@8fb7d",
+      "displayName": "",
+      "id": "8fb7d",
+      "name": "hamimelon.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e655b": {
+      "importer": "gltf-mesh",
+      "uuid": "e57db638-0495-4d84-b651-5057d46b3df3@e655b",
+      "displayName": "",
+      "id": "e655b",
+      "name": "hamimelon01.mesh",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "689b7": {
+      "importer": "gltf-mesh",
+      "uuid": "e57db638-0495-4d84-b651-5057d46b3df3@689b7",
+      "displayName": "",
+      "id": "689b7",
+      "name": "hamimelon02.mesh",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c7c38": {
+      "importer": "texture",
+      "uuid": "e57db638-0495-4d84-b651-5057d46b3df3@c7c38",
+      "displayName": "",
+      "id": "c7c38",
+      "name": "hamimelon.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/AssetsPackage/Modles/fruit/hamimelon/hamimelon.jpg"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "04e77": {
+      "importer": "gltf-material",
+      "uuid": "e57db638-0495-4d84-b651-5057d46b3df3@04e77",
+      "displayName": "",
+      "id": "04e77",
+      "name": "hamimelon.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4085d": {
+      "importer": "gltf-scene",
+      "uuid": "e57db638-0495-4d84-b651-5057d46b3df3@4085d",
+      "displayName": "",
+      "id": "4085d",
+      "name": "hamimelon.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "hamimelon",
+        "uri": "db://assets/AssetsPackage/Modles/fruit/hamimelon/hamimelon.jpg"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "allowMeshDataAccess": true,
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "e57db638-0495-4d84-b651-5057d46b3df3@4085d",
+    "assetFinder": {
+      "meshes": [
+        "e57db638-0495-4d84-b651-5057d46b3df3@8fb7d",
+        "e57db638-0495-4d84-b651-5057d46b3df3@e655b",
+        "e57db638-0495-4d84-b651-5057d46b3df3@689b7"
+      ],
+      "skeletons": [],
+      "textures": [
+        "e57db638-0495-4d84-b651-5057d46b3df3@c7c38"
+      ],
+      "materials": [
+        "e57db638-0495-4d84-b651-5057d46b3df3@04e77"
+      ],
+      "scenes": [
+        "e57db638-0495-4d84-b651-5057d46b3df3@4085d"
+      ]
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "ver": "2.3.4",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "4c5801aa-a8d3-485e-b17b-948248db130a",
+  "files": [],
+  "subMetas": {
+    "83176": {
+      "importer": "gltf-material",
+      "uuid": "4c5801aa-a8d3-485e-b17b-948248db130a@83176",
+      "displayName": "",
+      "id": "83176",
+      "name": "clock.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "85094": {
+      "importer": "gltf-mesh",
+      "uuid": "4c5801aa-a8d3-485e-b17b-948248db130a@85094",
+      "displayName": "",
+      "id": "85094",
+      "name": "clock01.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "bc8d2": {
+      "importer": "gltf-mesh",
+      "uuid": "4c5801aa-a8d3-485e-b17b-948248db130a@bc8d2",
+      "displayName": "",
+      "id": "bc8d2",
+      "name": "clock02.mesh",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "09540": {
+      "importer": "gltf-mesh",
+      "uuid": "4c5801aa-a8d3-485e-b17b-948248db130a@09540",
+      "displayName": "",
+      "id": "09540",
+      "name": "clock03.mesh",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b76ee": {
+      "importer": "gltf-scene",
+      "uuid": "4c5801aa-a8d3-485e-b17b-948248db130a@b76ee",
+      "displayName": "",
+      "id": "b76ee",
+      "name": "clock.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "allowMeshDataAccess": true,
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "4c5801aa-a8d3-485e-b17b-948248db130a@b76ee",
+    "assetFinder": {
+      "meshes": [
+        "4c5801aa-a8d3-485e-b17b-948248db130a@85094",
+        "4c5801aa-a8d3-485e-b17b-948248db130a@bc8d2",
+        "4c5801aa-a8d3-485e-b17b-948248db130a@09540"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "4c5801aa-a8d3-485e-b17b-948248db130a@83176"
+      ],
+      "scenes": [
+        "4c5801aa-a8d3-485e-b17b-948248db130a@b76ee"
+      ]
+    }
+  }
+}

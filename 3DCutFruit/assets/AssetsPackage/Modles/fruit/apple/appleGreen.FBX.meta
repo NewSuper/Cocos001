@@ -1,0 +1,156 @@
+{
+  "ver": "2.3.4",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "b1fc8eec-e1e4-4562-b3ed-2756562692c2",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "79d7d": {
+      "importer": "gltf-mesh",
+      "uuid": "b1fc8eec-e1e4-4562-b3ed-2756562692c2@79d7d",
+      "displayName": "",
+      "id": "79d7d",
+      "name": "appleGreen01.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d8f88": {
+      "importer": "gltf-mesh",
+      "uuid": "b1fc8eec-e1e4-4562-b3ed-2756562692c2@d8f88",
+      "displayName": "",
+      "id": "d8f88",
+      "name": "appleGreen.mesh",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "658df": {
+      "importer": "gltf-mesh",
+      "uuid": "b1fc8eec-e1e4-4562-b3ed-2756562692c2@658df",
+      "displayName": "",
+      "id": "658df",
+      "name": "appleGreen02.mesh",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "73b7f": {
+      "importer": "gltf-animation",
+      "uuid": "b1fc8eec-e1e4-4562-b3ed-2756562692c2@73b7f",
+      "displayName": "",
+      "id": "73b7f",
+      "name": "Take 001.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 3.3333332538604736
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "f64ab": {
+      "importer": "gltf-material",
+      "uuid": "b1fc8eec-e1e4-4562-b3ed-2756562692c2@f64ab",
+      "displayName": "",
+      "id": "f64ab",
+      "name": "appleGreen.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b8aff": {
+      "importer": "gltf-scene",
+      "uuid": "b1fc8eec-e1e4-4562-b3ed-2756562692c2@b8aff",
+      "displayName": "",
+      "id": "b8aff",
+      "name": "appleGreen.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "allowMeshDataAccess": true,
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 3.3333332538604736,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Take 001",
+            "from": 0,
+            "to": 3.3333332538604736,
+            "wrapMode": 2
+          }
+        ]
+      }
+    ],
+    "redirect": "b1fc8eec-e1e4-4562-b3ed-2756562692c2@b8aff",
+    "assetFinder": {
+      "meshes": [
+        "b1fc8eec-e1e4-4562-b3ed-2756562692c2@79d7d",
+        "b1fc8eec-e1e4-4562-b3ed-2756562692c2@d8f88",
+        "b1fc8eec-e1e4-4562-b3ed-2756562692c2@658df"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "b1fc8eec-e1e4-4562-b3ed-2756562692c2@f64ab"
+      ],
+      "scenes": [
+        "b1fc8eec-e1e4-4562-b3ed-2756562692c2@b8aff"
+      ]
+    }
+  }
+}

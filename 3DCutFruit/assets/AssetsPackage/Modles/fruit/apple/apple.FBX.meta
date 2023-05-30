@@ -1,0 +1,116 @@
+{
+  "ver": "2.3.4",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "6c0f8170-6075-4fe2-ba50-18ca3f056e48",
+  "files": [],
+  "subMetas": {
+    "80723": {
+      "importer": "gltf-mesh",
+      "uuid": "6c0f8170-6075-4fe2-ba50-18ca3f056e48@80723",
+      "displayName": "",
+      "id": "80723",
+      "name": "appleRed.mesh",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "864b7": {
+      "importer": "gltf-mesh",
+      "uuid": "6c0f8170-6075-4fe2-ba50-18ca3f056e48@864b7",
+      "displayName": "",
+      "id": "864b7",
+      "name": "appleRed01.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5b0c9": {
+      "importer": "gltf-mesh",
+      "uuid": "6c0f8170-6075-4fe2-ba50-18ca3f056e48@5b0c9",
+      "displayName": "",
+      "id": "5b0c9",
+      "name": "appleRed02.mesh",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2e72d": {
+      "importer": "gltf-material",
+      "uuid": "6c0f8170-6075-4fe2-ba50-18ca3f056e48@2e72d",
+      "displayName": "",
+      "id": "2e72d",
+      "name": "appleRed.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "28cd4": {
+      "importer": "gltf-scene",
+      "uuid": "6c0f8170-6075-4fe2-ba50-18ca3f056e48@28cd4",
+      "displayName": "",
+      "id": "28cd4",
+      "name": "apple.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "allowMeshDataAccess": true,
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "6c0f8170-6075-4fe2-ba50-18ca3f056e48@28cd4",
+    "assetFinder": {
+      "meshes": [
+        "6c0f8170-6075-4fe2-ba50-18ca3f056e48@864b7",
+        "6c0f8170-6075-4fe2-ba50-18ca3f056e48@80723",
+        "6c0f8170-6075-4fe2-ba50-18ca3f056e48@5b0c9"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "6c0f8170-6075-4fe2-ba50-18ca3f056e48@2e72d"
+      ],
+      "scenes": [
+        "6c0f8170-6075-4fe2-ba50-18ca3f056e48@28cd4"
+      ]
+    }
+  }
+}

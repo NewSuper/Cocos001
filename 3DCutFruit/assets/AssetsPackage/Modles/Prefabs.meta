@@ -1,0 +1,14 @@
+{
+  "ver": "1.1.0",
+  "importer": "directory",
+  "imported": true,
+  "uuid": "92247e82-efc3-4a0d-bb16-0e2048b68a9c",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "compressionType": {},
+    "isRemoteBundle": {},
+    "bundleName": "FruitModels",
+    "isBundle": true
+  }
+}

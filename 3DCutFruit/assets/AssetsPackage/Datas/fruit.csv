@@ -1,0 +1,12 @@
+编号,目标名称,目标类型(0普通水果 1炸弹 2 特殊水果),预制体名称,颜色,拖尾大小,拖尾路径,缩放比例,粒子大小
+int,string,int,string,string,string,string,float,float
+ID,name,type,prefab,color,trailScale,trailPath,scale,particleScale
+1001,西瓜,0,watermelon,red,1,,5,1
+1002,香蕉,0,banana,yellow,0.4,,1.5,0.5
+1003,凤梨,0,pineapple,yellow,0.6,,5,1
+1004,橘子,0,orange,orange,0.4,,1,0.5
+1005,哈密瓜,0,hamimelon,green,0.6,,4,0.8
+1006,苹果,0,apple,white,0.4,,1.5,0.4
+1007,榴莲,2,durian,red,1,,4.5,1
+1008,炸弹,1,bomb,big,1,boom/bigBoom/bombTrail01,0.3,1
+1009,草莓,0,strawberry,red,0.4,,2,0.3
