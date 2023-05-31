@@ -1,0 +1,61 @@
+{
+  "__type__": "cc.Material",
+  "_name": "plane01",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "f648964e-8d32-41fc-9ac9-7a1e714dd17b",
+    "__expectedType__": "cc.EffectAsset"
+  },
+  "_techIdx": 0,
+  "_defines": [
+    {
+      "USE_ALBEDO_MAP": true,
+      "DCC_APP_NAME": 1
+    }
+  ],
+  "_states": [
+    {
+      "rasterizerState": {},
+      "blendState": {
+        "targets": [
+          {}
+        ]
+      },
+      "depthStencilState": {}
+    }
+  ],
+  "_props": [
+    {
+      "albedoScale": 1,
+      "mainColor": {
+        "__type__": "cc.Color",
+        "r": 202,
+        "g": 202,
+        "b": 202,
+        "a": 255
+      },
+      "mainTexture": {
+        "__uuid__": "62694da9-04ed-4d6d-8ee1-a769d66c0c3d@a96a6",
+        "__expectedType__": "cc.Texture2D"
+      },
+      "specularFactor": 0,
+      "specularColor": {
+        "__type__": "cc.Color",
+        "r": 243,
+        "g": 243,
+        "b": 243,
+        "a": 255
+      },
+      "shininessExponent": 2,
+      "emissiveScale": 0,
+      "emissive": {
+        "__type__": "cc.Color",
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 255
+      }
+    }
+  ]
+}

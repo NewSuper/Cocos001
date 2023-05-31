@@ -1,0 +1,130 @@
+{
+  "ver": "2.3.4",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "130f2fa5-0bdf-410a-be1c-41da0e4080ca",
+  "files": [],
+  "subMetas": {
+    "604e5": {
+      "ver": "1.1.0",
+      "importer": "gltf-mesh",
+      "name": "Box022.mesh",
+      "id": "604e5",
+      "displayName": "",
+      "uuid": "130f2fa5-0bdf-410a-be1c-41da0e4080ca@604e5",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      }
+    },
+    "546af": {
+      "ver": "1.0.3",
+      "importer": "gltf-embeded-image",
+      "name": "house02.jpg.image",
+      "id": "546af",
+      "displayName": "",
+      "uuid": "130f2fa5-0bdf-410a-be1c-41da0e4080ca@546af",
+      "imported": true,
+      "files": [
+        ".jpg",
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      }
+    },
+    "a96a6": {
+      "ver": "1.0.22",
+      "importer": "texture",
+      "name": "贴图 #1.texture",
+      "id": "a96a6",
+      "displayName": "",
+      "uuid": "130f2fa5-0bdf-410a-be1c-41da0e4080ca@a96a6",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "130f2fa5-0bdf-410a-be1c-41da0e4080ca@546af"
+      }
+    },
+    "4eb3d": {
+      "ver": "1.0.14",
+      "importer": "gltf-material",
+      "name": "Material #117.material",
+      "id": "4eb3d",
+      "displayName": "",
+      "uuid": "130f2fa5-0bdf-410a-be1c-41da0e4080ca@4eb3d",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      }
+    },
+    "ad709": {
+      "ver": "1.0.12",
+      "importer": "gltf-scene",
+      "name": "house02.prefab",
+      "id": "ad709",
+      "displayName": "",
+      "uuid": "130f2fa5-0bdf-410a-be1c-41da0e4080ca@ad709",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      }
+    }
+  },
+  "userData": {
+    "normals": 0,
+    "tangents": 1,
+    "dumpMaterials": false,
+    "redirect": "130f2fa5-0bdf-410a-be1c-41da0e4080ca@ad709",
+    "assetFinder": {
+      "meshes": [
+        "130f2fa5-0bdf-410a-be1c-41da0e4080ca@604e5"
+      ],
+      "textures": [
+        "130f2fa5-0bdf-410a-be1c-41da0e4080ca@a96a6"
+      ],
+      "materials": [
+        "130f2fa5-0bdf-410a-be1c-41da0e4080ca@4eb3d"
+      ],
+      "scenes": [
+        "130f2fa5-0bdf-410a-be1c-41da0e4080ca@ad709"
+      ],
+      "skeletons": []
+    },
+    "imageMetas": [
+      {
+        "name": "house02.jpg",
+        "uri": "130f2fa5-0bdf-410a-be1c-41da0e4080ca@546af"
+      }
+    ],
+    "legacyFbxImporter": true,
+    "fbx": {
+      "smartMaterialEnabled": false
+    }
+  }
+}

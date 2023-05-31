@@ -1,0 +1,184 @@
+{
+  "ver": "2.3.4",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "84e7f407-a86f-4734-89f0-b9dd8a6770ef",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "274e2": {
+      "importer": "gltf-mesh",
+      "uuid": "84e7f407-a86f-4734-89f0-b9dd8a6770ef@274e2",
+      "displayName": "",
+      "id": "274e2",
+      "name": "girl02.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "73b7f": {
+      "importer": "gltf-animation",
+      "uuid": "84e7f407-a86f-4734-89f0-b9dd8a6770ef@73b7f",
+      "displayName": "",
+      "id": "73b7f",
+      "name": "Take 001.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.6333333253860474
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "438fe": {
+      "importer": "gltf-skeleton",
+      "uuid": "84e7f407-a86f-4734-89f0-b9dd8a6770ef@438fe",
+      "displayName": "",
+      "id": "438fe",
+      "name": "UnnamedSkeleton.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 17
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "425ef": {
+      "importer": "gltf-embeded-image",
+      "uuid": "84e7f407-a86f-4734-89f0-b9dd8a6770ef@425ef",
+      "displayName": "",
+      "id": "425ef",
+      "name": "贴图 #2.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "59f96": {
+      "importer": "texture",
+      "uuid": "84e7f407-a86f-4734-89f0-b9dd8a6770ef@59f96",
+      "displayName": "",
+      "id": "59f96",
+      "name": "贴图 #2.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "84e7f407-a86f-4734-89f0-b9dd8a6770ef@425ef"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "fe5ee": {
+      "importer": "gltf-material",
+      "uuid": "84e7f407-a86f-4734-89f0-b9dd8a6770ef@fe5ee",
+      "displayName": "",
+      "id": "fe5ee",
+      "name": "Material #5.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7b338": {
+      "importer": "gltf-scene",
+      "uuid": "84e7f407-a86f-4734-89f0-b9dd8a6770ef@7b338",
+      "displayName": "",
+      "id": "7b338",
+      "name": "girl01.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "贴图 #2",
+        "uri": "84e7f407-a86f-4734-89f0-b9dd8a6770ef@425ef"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 0.6333333253860474,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Take 001",
+            "from": 0,
+            "to": 0.6333333253860474,
+            "wrapMode": 2
+          }
+        ]
+      }
+    ],
+    "redirect": "84e7f407-a86f-4734-89f0-b9dd8a6770ef@7b338",
+    "assetFinder": {
+      "meshes": [
+        "84e7f407-a86f-4734-89f0-b9dd8a6770ef@274e2"
+      ],
+      "skeletons": [
+        "84e7f407-a86f-4734-89f0-b9dd8a6770ef@438fe"
+      ],
+      "textures": [
+        "84e7f407-a86f-4734-89f0-b9dd8a6770ef@59f96"
+      ],
+      "materials": [
+        "84e7f407-a86f-4734-89f0-b9dd8a6770ef@fe5ee"
+      ],
+      "scenes": [
+        "84e7f407-a86f-4734-89f0-b9dd8a6770ef@7b338"
+      ]
+    }
+  }
+}
