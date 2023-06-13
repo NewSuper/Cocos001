@@ -1,0 +1,8 @@
+{
+  "engine": "cocos-creator-js",
+  "packages": "packages",
+  "name": "gobang_todo",
+  "id": "166a1148-7624-45d1-82c6-6439415d3a4b",
+  "version": "2.4.10",
+  "isNew": false
+}
