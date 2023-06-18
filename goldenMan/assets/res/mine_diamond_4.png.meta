@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "b7acc284-f542-4658-a479-3bf3fe99bee4",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 27,
+  "height": 22,
+  "platformSettings": {},
+  "subMetas": {
+    "mine_diamond_4": {
+      "ver": "1.0.6",
+      "uuid": "e90746ef-8b1a-4dad-9e9f-5e6f5d9bea9d",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "b7acc284-f542-4658-a479-3bf3fe99bee4",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": 0,
+      "trimX": 1,
+      "trimY": 1,
+      "width": 24,
+      "height": 20,
+      "rawWidth": 27,
+      "rawHeight": 22,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
