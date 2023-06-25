@@ -1,0 +1,43 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "air_move",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1.0333333333333334,
+  "sample": 30,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "63f48d9e-bc82-4482-81c1-5aa4a8cbd91a"
+            }
+          },
+          {
+            "frame": 0.3333333333333333,
+            "value": {
+              "__uuid__": "b63e6fda-c23c-4284-bb63-206815799879"
+            }
+          },
+          {
+            "frame": 0.6666666666666666,
+            "value": {
+              "__uuid__": "62837169-6f38-4aa4-88fa-97ad3916f5a4"
+            }
+          },
+          {
+            "frame": 1,
+            "value": {
+              "__uuid__": "62837169-6f38-4aa4-88fa-97ad3916f5a4"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}
