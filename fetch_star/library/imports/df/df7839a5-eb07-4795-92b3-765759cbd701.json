@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fx_coinxiaosh_03",
+    "texture": "f3044bbc-3bd8-4b7c-bde2-a752bee30150",
+    "atlas": "",
+    "rect": [
+      4,
+      3,
+      72,
+      74
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      80,
+      80
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
