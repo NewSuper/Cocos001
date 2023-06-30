@@ -1,0 +1,41 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "bird_red",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.375,
+  "sample": 8,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "paths": {
+      "bird0_0": {
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0,
+                "value": {
+                  "__uuid__": "8e053a61-2442-4302-9bad-aec873556110"
+                }
+              },
+              {
+                "frame": 0.125,
+                "value": {
+                  "__uuid__": "f58e7314-c2ae-41d1-9e7f-23c4f5d3b838"
+                }
+              },
+              {
+                "frame": 0.25,
+                "value": {
+                  "__uuid__": "88442a04-df9b-4e1f-8522-dbfd3765340f"
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "events": []
+}

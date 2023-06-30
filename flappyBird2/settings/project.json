@@ -1,0 +1,63 @@
+{
+  "group-list": [
+    "default",
+    "pumple",
+    "tag",
+    "bird"
+  ],
+  "collision-matrix": [
+    [
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      false
+    ]
+  ],
+  "excluded-modules": [
+    "3D Physics/Builtin"
+  ],
+  "preview-port": 7456,
+  "design-resolution-width": 720,
+  "design-resolution-height": 1280,
+  "fit-width": false,
+  "fit-height": true,
+  "use-project-simulator-setting": false,
+  "simulator-orientation": false,
+  "use-customize-simulator": true,
+  "simulator-resolution": {
+    "width": 960,
+    "height": 640
+  },
+  "clear-simulator-cache": true,
+  "facebook": {
+    "enable": false,
+    "appID": "",
+    "live": {
+      "enable": false
+    },
+    "audience": {
+      "enable": false
+    }
+  },
+  "migrate-history": [
+    "cloud-function"
+  ]
+}
