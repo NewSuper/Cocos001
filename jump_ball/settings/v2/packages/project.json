@@ -1,0 +1,31 @@
+{
+  "__version__": "1.0.4",
+  "layer": [
+    {
+      "name": "BALL",
+      "value": 1
+    },
+    {
+      "name": "TUBE",
+      "value": 2
+    }
+  ],
+  "physics": {
+    "defaultMaterial": "d2dcb131-8787-468a-93a0-c85b257fcbbc",
+    "gravity": {
+      "y": -30
+    }
+  },
+  "general": {
+    "designResolution": {
+      "width": 720,
+      "height": 1280,
+      "fitHeight": true
+    }
+  },
+  "fbx": {
+    "legacyFbxImporter": {
+      "visible": true
+    }
+  }
+}

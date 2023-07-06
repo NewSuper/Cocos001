@@ -1,0 +1,72 @@
+{
+  "ver": "2.3.4",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "115d7e4d-770f-4ef5-8b6a-ef4b00917ed5",
+  "files": [],
+  "subMetas": {
+    "f0481": {
+      "importer": "gltf-mesh",
+      "uuid": "115d7e4d-770f-4ef5-8b6a-ef4b00917ed5@f0481",
+      "displayName": "",
+      "id": "f0481",
+      "name": "Tube001.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "20e4e": {
+      "importer": "gltf-scene",
+      "uuid": "115d7e4d-770f-4ef5-8b6a-ef4b00917ed5@20e4e",
+      "displayName": "",
+      "id": "20e4e",
+      "name": "圆盘.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "redirect": "115d7e4d-770f-4ef5-8b6a-ef4b00917ed5@20e4e",
+    "assetFinder": {
+      "meshes": [
+        "115d7e4d-770f-4ef5-8b6a-ef4b00917ed5@f0481"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "115d7e4d-770f-4ef5-8b6a-ef4b00917ed5@20e4e"
+      ]
+    },
+    "useVertexColors": true,
+    "dumpMaterials": false,
+    "materialDumpDir": "db://assets/material",
+    "depthWriteInAlphaModeBlend": false,
+    "meshOptimizerOptions": {
+      "v": true
+    },
+    "meshOptimizer": false,
+    "normals": 3,
+    "tangents": 3,
+    "fbx": {
+      "preferLocalTimeSpan": false,
+      "smartMaterialEnabled": false
+    }
+  }
+}
